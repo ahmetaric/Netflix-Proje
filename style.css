@@ -1,0 +1,64 @@
+body{
+    background-image: url(./background_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+#container{
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px;
+   
+}
+#title{
+    text-align: center;
+    font-weight: bolder;
+}
+#title span{
+    color: red;
+}
+#description{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#survey-form{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 30%;
+    height: auto;
+    position: relative;
+    padding: 40px;
+    
+}
+#name,
+#age,
+#email,
+#content
+{
+    width: 95%;
+    height: 50px;
+    margin: 10px 0;
+}
+.box{
+    margin: 15px ;
+   
+}
+#feedback{
+    margin: 10px 0;
+}
+#submit-button{
+    border: 1px solid black;
+    border: none;
+    border-radius: 40px 40px;
+    padding: 10px 50px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    position: relative;
+    font-size: 1.3rem;
+    left: 30%;
+    margin: 10px;
+    
+}
